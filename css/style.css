@@ -1,0 +1,122 @@
+:root {
+  --red: hsl(0, 78%, 62%); 
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%); 
+  --blue: hsl(212, 86%, 64%); 
+  --very-dark-black: hsl(234, 12%, 34%); 
+  --grayish-blue: hsl(229, 6%, 66%); 
+  --very-light-gray: hsl(0, 0%, 98%); 
+  --font-size: 15px;  
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.page {
+  width: 100%; 
+  background-color: var(--very-light-gray);
+  text-align: center;
+  padding: 75px 0;
+}
+.page .head {
+  margin-bottom: 70px;
+}
+.page .head h1:first-child {
+  font-weight: 200;
+}
+@media (max-width: 375px) {
+  .page .head h1:first-child {
+    font-size: 25px;
+  }
+}
+.page .head h1:nth-child(2) {
+  font-weight: 600;
+  color: var(--very-dark-black);
+}
+@media (max-width: 375px) {
+  .page .head h1:nth-child(2) {
+    font-size: 25px;
+  }
+}
+.page .head p:last-child {
+  width: 500px;
+  margin: 15px auto 0;
+  font-size: var(--font-size);
+  line-height: 2;
+  color: var(--grayish-blue);
+}
+@media (max-width: 375px) {
+  .page .head p:last-child {
+    max-width: 320px;
+  }
+}
+.page .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 30px;
+}
+@media (max-width: 375px) {
+  .page .content {
+    flex-direction: column;
+  }
+}
+.page .content .box:nth-child(2) {
+  display: flex; 
+  flex-direction: column; 
+  gap: 30px;
+}
+.page .content .box .card {
+  background-color: #fff; 
+  border-radius: 4px;
+  padding: 40px;
+  text-align: left;
+  width: 350px; 
+  height: 270px; 
+  box-shadow: 0px 5px 30px -8px rgb(200, 200, 200);
+}
+@media (max-width: 375px) {
+  .page .content .box .card {
+    width: 320px;
+  }
+}
+.page .content .box:first-child .card {
+  border-top: 4px solid var(--cyan);
+}
+.page .content .box:nth-child(2) .card:first-child {
+  border-top: 4px solid var(--red);
+}
+.page .content .box:nth-child(2) .card:last-child {
+  border-top: 4px solid var(--orange);
+}
+.page .content .box:last-child .card {
+  border-top: 4px solid var(--blue);
+}
+.page .content .box .card h1 {
+  color: var(--very-dark-black);
+  margin: 0 0 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.page .content .box .card p {
+  line-height: 2;
+  color: var(--grayish-blue);
+  font-size: var(--font-size);
+}
+.page .content .box .card img {
+  display: flex;
+  margin: 20px 0 0 auto;
+}
+.attribution {
+  font-size: 11px; text-align: center; 
+  background-color: var(--very-light-gray);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
