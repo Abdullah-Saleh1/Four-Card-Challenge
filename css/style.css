@@ -26,7 +26,8 @@ body {
   margin-bottom: 70px;
 }
 .page .head h1:first-child {
-  font-weight: 200;
+  font-weight: 200; 
+  font-size: 35px;
 }
 @media (max-width: 375px) {
   .page .head h1:first-child {
@@ -36,6 +37,7 @@ body {
 .page .head h1:nth-child(2) {
   font-weight: 600;
   color: var(--very-dark-black);
+  font-size: 35px;
 }
 @media (max-width: 375px) {
   .page .head h1:nth-child(2) {
@@ -75,10 +77,10 @@ body {
 .page .content .box .card {
   background-color: #fff; 
   border-radius: 4px;
-  padding: 40px;
+  padding: 30px;
   text-align: left;
   width: 350px; 
-  height: 270px; 
+  height: 250px; 
   box-shadow: 0px 5px 30px -8px rgb(200, 200, 200);
 }
 @media (max-width: 375px) {
@@ -101,22 +103,15 @@ body {
 .page .content .box .card h1 {
   color: var(--very-dark-black);
   margin: 0 0 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 .page .content .box .card p {
   line-height: 2;
   color: var(--grayish-blue);
-  font-size: var(--font-size);
+  font-size: 13px;
 }
 .page .content .box .card img {
   display: flex;
   margin: 20px 0 0 auto;
-}
-.attribution {
-  font-size: 11px; text-align: center; 
-  background-color: var(--very-light-gray);
-}
-.attribution a {
-  color: hsl(228, 45%, 44%); 
 }
