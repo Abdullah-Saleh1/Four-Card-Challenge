@@ -114,5 +114,7 @@ body {
 .page .content .box .card img {
   display: flex;
   margin: 20px 0 0 auto;
+  width: 64px; 
+  height: 64px;
 }
 
