@@ -23,11 +23,11 @@ body {
   padding: 75px 0;
 }
 .page .head {
-  margin-bottom: 70px;
+  margin-bottom: 74px;
 }
 .page .head h1:first-child {
   font-weight: 200; 
-  font-size: 35px;
+  font-size: 33px;
 }
 @media (max-width: 375px) {
   .page .head h1:first-child {
@@ -37,7 +37,7 @@ body {
 .page .head h1:nth-child(2) {
   font-weight: 600;
   color: var(--very-dark-black);
-  font-size: 35px;
+  font-size: 33px;
 }
 @media (max-width: 375px) {
   .page .head h1:nth-child(2) {
@@ -48,7 +48,7 @@ body {
   width: 500px;
   margin: 15px auto 0;
   font-size: var(--font-size);
-  line-height: 2;
+  line-height: 2.5;
   color: var(--grayish-blue);
 }
 @media (max-width: 375px) {
